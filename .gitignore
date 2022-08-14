@@ -1,0 +1,9 @@
+node_modules/
+commands/fun/stoplookingatmydiscordstatus.js
+commands/fun/imagewrite.js
+commands/fun/imageeffect.js
+commands/fun/sendrecording.js
+commands/fun/bowling.js
+recording.pcm
+events\done.js
+# events/ready.js
