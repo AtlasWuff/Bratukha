@@ -1,0 +1,21 @@
+{
+  "name": "Bratukha",
+  "description": "A non-hosted discord bot w. a fuck ton of stuff",
+  "repository": "https://github.com/Its-Tachanks/Bratukha",
+  "logo": "https://cdn.discordapp.com/attachments/894669724305215509/1010974959390167060/NerdBratukha.png",
+  "keywords": ["Node", "Discord Bot", "Discord", "Discord Bot Templaye", "Homework", "Organization", "School"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "DiscordToken": {
+      "description": "Your discord bot's token",
+      "value" : "Your token here"
+    }
+  },
+  "scripts": {
+    "postdeploy": "node index.js"
+  }
+}
