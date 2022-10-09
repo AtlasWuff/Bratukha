@@ -7,3 +7,4 @@ commands/fun/bowling.js
 recording.pcm
 events\done.js
 # events/ready.js
+.env

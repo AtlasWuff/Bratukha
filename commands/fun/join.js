@@ -5,8 +5,10 @@ module.exports = {
     utilisation: '{prefix}join',
 
     execute(client, message, args) {
-        const channel = message.member.voice.channel;
+        var channelId = message.content.slice(this.name.length + 1)
+        var channelId = channelId.split(' ')
+        var channelId = channelId[1]
 
-        channel.join()
+        client.channels.cache.get(channelId).join()
     },
 };
