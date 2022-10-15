@@ -17,6 +17,7 @@
     "discord-player": "^3.3.2",
     "discord-reply": "^0.1.2",
     "discord.js": "^12.5.3",
+    "dotenv": "^16.0.3",
     "express": "^4.17.3",
     "https": "^1.0.0",
     "image-search-engine": "^1.2.1",
